@@ -1,9 +1,11 @@
+import BasicButton from "../components/BasicButton"
 import ServiceCard from "../components/ServiceCard"
 
 const OurServices = () => {
   return (
     <div className="our-services relative" >
         <img className="bg-element" src="/src/assets/bg element.svg" alt="" />
+        <img className="bg-element-dotted" src="/src/assets/dotted-element.svg" alt="" />
         <h1>Our Services</h1>
         <div className="our-service-line" ></div>
         <p>We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health</p>
@@ -21,6 +23,7 @@ const OurServices = () => {
 
             <ServiceCard src="tracking.svg" title="Tracking" info="Track and save your medical history and health data" />
         </div>
+        <BasicButton text="Learn More"/>
         
     </div>
   )
