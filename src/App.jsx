@@ -7,6 +7,8 @@ import OurServices from './pages/OurServices'
 import About from './pages/About'
 import DownloadApp from './pages/DownloadApp'
 import Testimonials from './pages/Testimonials'
+import Articles from './pages/Articles'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -29,8 +31,14 @@ function App() {
         <section id="testimonials">
           <Testimonials/>
         </section>
-       
+        <section id="articles">
+          <Articles/>
+        </section>
       </div>
+      
+      <section id="footer">
+          <Footer/>
+      </section>
      
     </div>
   )

@@ -1,3 +1,5 @@
+import HamburgerMenu from "./HamburgerMenu";
+
 const Navbar = () => {
  
     return (
@@ -6,6 +8,10 @@ const Navbar = () => {
             <h2 className="logo-icon" >T</h2>
             <h3>Trafalgar</h3>
         </div>
+        <div className="hamburger-links">
+          <HamburgerMenu/>
+        </div>
+        
         <ul className="nav-links">
             <li>
             <a className="active-bar" href="#home">Home</a>
