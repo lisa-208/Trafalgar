@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
+import OurServices from './pages/OurServices'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,9 @@ function App() {
         <Navbar />
         <section id="home">
           <Home/>
+        </section>
+        <section id="findDoctor">
+          <OurServices/>
         </section>
        
       </div>
