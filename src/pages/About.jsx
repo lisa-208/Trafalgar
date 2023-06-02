@@ -3,7 +3,7 @@ import BasicButton from "../components/BasicButton"
 const About = () => {
   return (
     <div className="infos" >
-        <img src="/src/assets/leading-healthcare-image.svg" alt="" />
+        <img src="/assets/leading-healthcare-image.svg" alt="" />
         <div className="info-card">
             <h1>Leading healthcare providers</h1>
             <div className="line" ></div>

@@ -8,8 +8,8 @@ const Home = () => {
             for everyone</p>
             <a className="btn-primary" href="#">Consult today</a>
         </div>
-        <img src="/src/assets/illustration.svg" alt="" />
-        <img className="home-dotted" src="/src/assets/dotted-element.svg" alt="" />
+        <img src="/assets/illustration.svg" alt="" />
+        <img className="home-dotted" src="/assets/dotted-element.svg" alt="" />
     </div>
   )
 }

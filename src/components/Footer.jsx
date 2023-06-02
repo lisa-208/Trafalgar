@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="footer">
         <div className="col-1">
-            <img src="/src/assets/footer-logo.png" alt="" />
+            <img src="/assets/footer-logo.png" alt="" />
             <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
             <p>©Trafalgar PTY LTD 2020. All rights reserved</p>
         </div>

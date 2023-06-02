@@ -3,7 +3,7 @@ import BasicButton from "../components/BasicButton"
 const DownloadApp = () => {
   return (
     <div className="infos" >
-    <img src="/src/assets/download-app-image.svg" alt="" />
+    <img src="/assets/download-app-image.svg" alt="" />
     <div className="info-card">
         <h1>Download our mobile apps</h1>
         <div className="line" ></div>

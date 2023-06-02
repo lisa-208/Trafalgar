@@ -4,7 +4,7 @@ const BasicButton = ({text,arrow}) => {
 
         <a className="btn">
         <span >{text}</span> 
-        {arrow && <img src="/src/assets/down-arrow-svgrepo-com.svg" alt="" />}
+        {arrow && <img src="/assets/down-arrow-svgrepo-com.svg" alt="" />}
         </a>
     
     </>
