@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.container{
+    max-width: 1250px;
+    margin: auto;
+    padding: 1rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: #233348;
+}
+
+.logo-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #458FF6;
+    padding: 1.5rem;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    
+}
+
+.nav-links a{
+    color: #1F1534;
+}
+
+.active-bar{
+    font-weight: bold;
+}
+
+/* buttons */
+.btn-primary{
+    color: #fff;
+    background: #458FF6;
+    padding: .8em 2rem;
+    border-radius: 55px
+}
+
+
+/* home section */
+
+.home{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: rem; */
+}
+
+.home-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    max-width: 445px;
+}
+
+.home-info h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.home-info p{
+    font-weight: 300;
+    color: #7D7987;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .home img{
+        max-width: 80%;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .home img{
+        max-width: 400px;
+    }
+    .home{
+        flex-direction: column-reverse;
+        justify-content: space-around;
+    }
+
+    .home-info{
+        text-align: center;
+        align-items: center;
+        max-width: 445px;
+        gap: .5rem;
+    }
+    
+    
+  }
+
+  @media only screen and (max-width: 400px) {
+    .home img{
+        max-width: 320px;
+    }
+  
+    .home-info h1{
+        font-size: 32px;
+        font-weight: bold;
+    }
+    
+    .home-info p{
+        font-size: 12px;
+    }
+    
+    .btn-primary{
+        font-size: 14px
+    }
+    
+    
+  }

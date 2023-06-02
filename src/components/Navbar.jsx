@@ -2,9 +2,13 @@ const Navbar = () => {
  
     return (
       <nav>
-        <ul>
+        <div className="logo">
+            <h2 className="logo-icon" >T</h2>
+            <h3>Trafalgar</h3>
+        </div>
+        <ul className="nav-links">
             <li>
-            <a href="#home">Home</a>
+            <a className="active-bar" href="#home">Home</a>
             </li>
             <li>
             <a href="#findDoctor">Find a doctor</a>
