@@ -1,0 +1,29 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+import Navbar from './components/Navbar'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <div>
+      <Navbar />
+      <section id="home">
+        <h1>Home</h1>
+        {/* Home content */}
+      </section>
+      <section id="about">
+        <h1>About</h1>
+        {/* About content */}
+      </section>
+      <section id="contact">
+        <h1>Contact</h1>
+        {/* Contact content */}
+      </section>
+    </div>
+  )
+}
+
+export default App
