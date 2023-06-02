@@ -25,6 +25,8 @@ a{
     padding: .5rem 1.2rem;
 }
 
+/* navbar */
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -79,12 +81,18 @@ nav{
 .btn{
     color: #458FF6;
     border: 1.4px solid #458FF6;
-    padding: 1rem 3rem;
+    padding: 1rem 2.5rem;
     border-radius: 55px;
     font-weight: 700;
     font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    cursor: pointer;
 
 }
+
 
 
 /* home section */
@@ -144,7 +152,7 @@ nav{
 }
 
 
-.our-service-line{
+.line{
     width: 56px;
     height: 2px;
     background: #000000;
@@ -200,6 +208,135 @@ nav{
 
 }
 
+/* about us */
+
+.infos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    gap: 2rem;
+    
+}
+
+#about .infos{
+    flex-direction: row;
+}
+
+#downloadApp .infos{
+    flex-direction: row-reverse;
+}
+
+.infos img{
+    max-width: 100%;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 480px;
+    gap: 2rem;
+}
+
+.info-card p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+.info-card h1{
+    font-size: 36px;
+}
+
+
+/* testimonials */
+.testimonials{
+    height: 80vh;
+}
+
+.testimonial-card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    /* padding: 5px; */
+    font-weight: 700;
+    max-width: 1120px;
+    padding: 5rem 2rem;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    color: white;
+    margin: auto;
+    text-align: c;
+}
+
+.testimonial-card .line {
+    background-color: white;
+}
+
+.testimonial-card h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.customer-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.customer-info h3{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+}
+
+.customer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.customer > * {
+    width: 50%;
+}
+
+
+
+.customer-info p{
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.customer .quote{
+    font-weight: 200;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+
+ .testimonials .dotted-blue{
+    position: absolute;
+    width: 131.58px;
+    height: 115px;
+    left: -55px;
+    top: 50;
+    z-index: -100;
+}
+
+.testimonials .dotted-white{
+    position: absolute;
+    width: 131.58px;
+    height: 115px;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
 
   @media only screen and (max-width: 1300px) {
     .home img{
@@ -224,7 +361,65 @@ nav{
         max-width: 445px;
         gap: .5rem;
     }
+
+    .infos{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    #about .infos{
+        flex-direction: column;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    #downloadApp .infos{
+        flex-direction: column;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    .infos img{
+        max-width: 400px;
+    }
     
+    .info-card {
+        align-items: center;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    
+    .btn{
+        padding: .6rem 2rem;
+        border-radius: 55px;
+        font-weight: 700;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+
+    .customer{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .customer > *{
+        width: 100%;
+    }
+
+    .customer-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+
   }
 
   
@@ -275,6 +470,11 @@ nav{
     .logo h3{
         font-size: 14px;
     }
+
+    .infos img{
+        max-width: 320px;
+    }
+    
     
     
   }
