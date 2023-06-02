@@ -14,6 +14,7 @@ const Articles = () => {
             <ArticleCard src="image 3.png" title="Natural care for healthy facial skin" info="A healthy lifestyle should start from now and also for your skin health. There are some..." />
            
         </div>
+        <img className="article-dotted" src="/assets/dotted-element.svg" alt="" />
         <BasicButton text="View All" />
     </div>
   )

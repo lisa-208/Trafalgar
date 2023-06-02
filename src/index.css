@@ -192,7 +192,7 @@ nav{
 .home-dotted{
     position: absolute;
     top: 10px;
-    left: -270px;
+    left: -370px;
 }
 
 
@@ -435,6 +435,7 @@ nav{
 .articles{
  display: flex;
  /* height: 80vh; */
+ position: relative;
  flex-direction: column;
  justify-content: flex-start;
  align-items: center;
@@ -449,6 +450,7 @@ nav{
 
 .article-cards{
     display: flex;
+    position: relative;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
@@ -464,6 +466,7 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    padding-bottom: 1rem;
 }
 
 .article-card .info{
@@ -483,6 +486,15 @@ nav{
     font-size: 17px;
     color: #4089ED;
 }
+
+.article-dotted{
+    position: absolute;
+    top: 90px;
+    left: 10px;
+    z-index: -100;
+}
+
+
 
 
 /* footer */
