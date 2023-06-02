@@ -108,13 +108,16 @@ nav{
     margin-bottom: 15px;
 }
 
-@media only screen and (max-width: 1200px) {
+
+  @media only screen and (max-width: 1300px) {
     .home img{
-        max-width: 80%;
+        max-width: 600px;
     }
+    
   }
 
-  @media only screen and (max-width: 800px) {
+
+@media only screen and (max-width: 980px) {
     .home img{
         max-width: 400px;
     }
@@ -130,10 +133,25 @@ nav{
         gap: .5rem;
     }
     
+  }
+
+  
+  @media only screen and (max-width: 700px) {
+
+    
+    .nav-links {
+        display: none;
+    }
     
   }
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 414px) {
+    .home{
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 30px;
+    }
+    
     .home img{
         max-width: 320px;
     }
@@ -149,6 +167,21 @@ nav{
     
     .btn-primary{
         font-size: 14px
+    }
+
+    
+    nav{
+        height: 5vh;
+    }
+
+    .logo-icon{
+        font-size: 20px;
+        padding: 1rem;
+        height: 12px;
+        width: 12px;
+    }
+    .logo h3{
+        font-size: 14px;
     }
     
     

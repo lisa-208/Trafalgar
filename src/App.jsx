@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <div className="container">
-        {/* <Navbar /> */}
+        <Navbar />
         <section id="home">
           <Home/>
         </section>
